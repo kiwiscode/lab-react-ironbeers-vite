@@ -131,7 +131,8 @@ a {
   color: #80461b;
 }
 
-.beer-details-container {
+.beer-details-container,
+.random-beer-container {
   width: 100%;
   text-align: center;
   padding: 20px; /* İsteğe bağlı: Container'ın içeriğe olan boşluğunu ayarlamak için */
@@ -142,8 +143,6 @@ a {
   text-align: left; /* Eğer içeriği sola hizalamak istiyorsanız */
 }
 
-/* start to check */
-
 input {
   border-color: #80461b;
   border-radius: 5%;
@@ -153,8 +152,7 @@ label {
   color: teal;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.beers-list-container {
+  position: relative;
+  left: 10%;
 }
